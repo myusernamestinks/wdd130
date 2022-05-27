@@ -90,6 +90,7 @@ nav .hover {
 
 #background {
     background-color: #656d4a;
+    height: 725px;
 }
 
 .msg {
@@ -115,17 +116,17 @@ footer {
 }
 
 footer h3 {
-    color: white;
+    color: #414833;
     text-decoration: underline;
 }
 
 footer a {
-    color: white;
+    color: #414833;
     text-decoration: none;
     margin-top: 200px;
 }
 
-footer a.hover {
+footer h3 a.hover {
     color: white;
     text-decoration: underline;
 }
@@ -157,4 +158,12 @@ footer .social img {
 
 main section img {
     box-sizing: border-box;
+}
+
+h3 {
+    color: white;
+}
+
+.logo {
+    width: 80px;
 }
