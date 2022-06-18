@@ -17,6 +17,7 @@ nav a {
     font-size: 2em;
     color: rgb(255, 255, 255);
     margin-top: 10px;
+    text-align: center;
 }
 
 h4 {
@@ -235,6 +236,10 @@ nav {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.blog-book {
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 900px) {
