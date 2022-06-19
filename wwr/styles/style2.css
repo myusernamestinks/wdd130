@@ -14,7 +14,7 @@
 
 .home-grid {
     display: grid;
-    grid-template-columns: 1/10;
+    grid-template-columns: 10;
 }
 
 nav a {
@@ -73,9 +73,7 @@ main section img {
 
 #background {
     height: 725px;
-    background-color:#656d4a;
-    grid-column: 1/11;
-    grid-row: 4/9;
+    background-color:#656d4a
 }
 
 Body {
@@ -212,13 +210,13 @@ h4 {
 }
 
 .camping-card {
-    grid-column: 6/8;
+    grid-column: 5/7;
     grid-row: 2/3;
 }
 
 .rapids-card {
     grid-column: 8/10;
-    grid-row: 2/4;
+    grid-row: 2/3;
 }
 
 .mountains {
