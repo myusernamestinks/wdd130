@@ -227,6 +227,14 @@ h4 {
     box-shadow: 5px 5px 10px white;
 }
 
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: 1/10;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
