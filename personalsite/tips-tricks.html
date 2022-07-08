@@ -22,16 +22,41 @@
             <a href="faqs.html">FAQ`s</a>
         </nav>
     <header>
-        <div class="Hero">
-            <div class="hero-grid">
-                <img class="hero-card" src="images/discbasket.jpg" alt="Disc Golf basket in the field">
-                <section class="discgrass-card">
-                    <img class="card-img" src="images/playingdiscgolf.jpg" alt="Disc around basket">
-                </section>
-                <section class="teepad-card">
-                    <img class="card-img" src="images/manthrowingdisc.jpg" alt="Starting tee">
-                </section>
-            </div>
+        <!-- The grid: four columns -->
+    <div class="row">
+        <div class="column">
+        <img src="images/dsicbasket1.png" alt="disc basket" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+        <img src="images/manthrowingdiscgolf2.png" alt="Man throwing" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+        <img src="images/woodbasket.png" alt="basket" onclick="myFunction(this);">
+        </div>
+    </div>
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+s
+    <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
+
+  </div>
             <section id="hero-msg">
                 <h1 class="home-title">Tips and Tricks for Disc Golf</h1>
                 <h4>Time to spill the 'tee'</h4>
