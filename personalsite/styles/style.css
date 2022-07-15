@@ -83,6 +83,16 @@ footer {
    max-height: 600px;
 }
 
+
+
+.card-img {
+    width: 300px;
+    height: 130px;
+    margin-top: 10px;
+    float: left;
+    padding: 10px;
+}
+
 /* The grid: Four equal columns that floats next to each other */
 
 .column {
